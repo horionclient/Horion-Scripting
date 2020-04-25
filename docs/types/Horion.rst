@@ -5,8 +5,8 @@ Horion
 
 .. method:: getCommandManager()
 
-	:returns: A :mod:`CommandManager` instance
+	:returns: :mod:`CommandManager`
 
 .. method:: getModuleManager()
 
-	:returns: A :mod:`ModuleManager` instance
+	:returns: :mod:`ModuleManager`

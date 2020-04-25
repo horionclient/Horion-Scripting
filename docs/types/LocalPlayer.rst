@@ -3,12 +3,26 @@ LocalPlayer
 
 .. module:: LocalPlayer
 
-Inherits all methods and attributes of :mod:`Entity` and adds:
+Inherits all methods and attributes from :mod:`Entity`
 
-.. method:: getCommandManager()
+.. method:: setPosition(pos)
 
-	:returns: A :mod:`CommandManager` instance
+	:param Vec3 pos:
 
-.. method:: getModuleManager()
+.. method:: setVelocity(vel)
 
-	:returns: A :mod:`ModuleManager` instance
+	:param Vec3 vel:
+
+.. method:: toString()
+
+	:returns string:
+
+.. method:: setViewAngles(angles)
+
+	:param Vec3 angles:
+
+	Vec3(pitch, yaw, 0)
+
+.. method:: setIsOnGround(onGround)
+
+	:param boolean onGround:
