@@ -8,7 +8,12 @@ Welcome to Horion-Scripting's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
+   :caption: Types
+
+   types/Game
+   types/Horion
+   types/LocalPlayer
+   types/Vec3
 
 
 
