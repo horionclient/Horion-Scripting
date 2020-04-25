@@ -8,7 +8,7 @@ Welcome to Horion-Scripting's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
 
 
 
