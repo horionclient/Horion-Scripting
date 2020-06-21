@@ -15,4 +15,5 @@ Welcome to Horion-Scripting's documentation!
    types/Module
    types/JsModule
    types/Entity
+   types/Level
 

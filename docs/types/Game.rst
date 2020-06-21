@@ -14,3 +14,9 @@ Game
 	:returns: A :mod:`LocalPlayer` instance
 
 	May be invalid when called on the main menu
+
+.. method:: getLevel()
+
+	:returns: :mod:`Level`
+
+	May be invalid when called on the main menu
