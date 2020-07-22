@@ -10,3 +10,7 @@ Horion
 .. method:: getModuleManager()
 
 	:returns: :mod:`ModuleManager`
+
+.. method:: getDrawUtils()
+
+	:returns: :mod:`DrawUtils`

@@ -16,4 +16,8 @@ Welcome to Horion-Scripting's documentation!
    types/JsModule
    types/Entity
    types/Level
+   types/DrawUtils
 
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

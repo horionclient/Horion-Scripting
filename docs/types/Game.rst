@@ -17,6 +17,6 @@ Game
 
 .. method:: getLevel()
 
-	:returns: :mod:`Level`
+	:returns: A :mod:`Level` instance
 
 	May be invalid when called on the main menu

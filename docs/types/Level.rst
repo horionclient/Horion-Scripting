@@ -1,7 +1,7 @@
 Level
 *****
 
-.. module::Level
+.. module:: Level
 
 .. method:: isValid()
 
