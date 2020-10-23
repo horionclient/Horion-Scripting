@@ -3,7 +3,9 @@ DrawUtils
 
 .. module:: DrawUtils
 
-All methods listed here may only be executed in the onRender callback
+All 3d draw methods listed here may only be executed in the onRender callback
+
+All 2d draw methods listed here may only be executed in the onRender2d callback
 
 
 .. method:: setColor(r, g, b, a)
@@ -12,6 +14,29 @@ All methods listed here may only be executed in the onRender callback
 	:param double g: Green component (0-1)
 	:param double b: Blue component (0-1)
 	:param double a: Alpha component (Transparency, 0-1, defaults to 1)
+
+.. method:: drawLine2d(start, end, lineWidth)
+
+	:param Vec2 start:
+	:param Vec2 end:
+	:param double lineWidth: 
+
+	Draws a line in 2d space on the play screen
+
+.. method:: drawRectangle2d(start, end, lineWidth)
+
+	:param Vec2 start: top left corner of the rectangle
+	:param Vec2 end: bottom right corner of the rectangle
+	:param double lineWidth: 
+
+	Draws a hollow rectangle in 2d space on the play screen
+
+.. method:: fillRectangle2d(start, end)
+
+	:param Vec2 start: top left corner of the rectangle
+	:param Vec2 end: bottom right corner of the rectangle
+
+	Draws a filled rectangle in 2d space on the play screen
 
 .. method:: drawLine3d(start, end, lineWidth)
 

@@ -10,4 +10,4 @@ Inherits all methods and attributes from :mod:`Module`
 	:param string callbackName:
 	:param function callbackFunction:
 	
-	Current list of callbacks: onEnable, onDisable, onTick
+	Current list of callbacks: onEnable, onDisable, onTick, onRender, onRender2d

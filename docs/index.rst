@@ -10,6 +10,7 @@ Welcome to Horion-Scripting's documentation!
    types/Horion
    types/LocalPlayer
    types/Vec3
+   types/Vec2
    types/CommandManager
    types/ModuleManager
    types/Module
